@@ -78,4 +78,5 @@ Selection will depend on cost, available peripherals, and audio support.
 ## Status
 
 Concept and architecture defined.  
-Parts selection and firmware implementation in progress.
+Parts selection in progress.
+**Budget pending, BOM in progress**
