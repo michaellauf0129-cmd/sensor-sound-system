@@ -22,6 +22,7 @@ Create a low-cost, compact device that:
 - Optional Bluetooth / IoT control (future)
 
 ## BOM
+
 https://docs.google.com/spreadsheets/d/1TtEXAzZh78ohhP923dgVh_xGt424K24asCBcOYmhk0M/edit?usp=sharing
 
 ## System Architecture
