@@ -6,11 +6,11 @@ A discreet sensor-triggered ambience machine designed for a mini-fridge or bar s
 
 Create a low-cost, compact device that:
 
-- Detects fridge or bar interaction using a sensor
+- Detects doors open/close events using a hall effect sensor
 - Plays short sound effects or ambience audio
-- Randomizes playback timing after multiple events
+- Randomizes playback timing
 - Blends into the environment (hidden / discreet)
-- Stays under a ~$20 build budget
+- ~$40 budget build
 
 ## Features (Planned)
 
@@ -29,12 +29,11 @@ https://docs.google.com/spreadsheets/d/1TtEXAzZh78ohhP923dgVh_xGt424K24asCBcOYmh
 
 **Subsystems:**
 
-- Power supply (battery or wall adapter)
-- Sensor input (vibration, motion, or door switch)
-- Microcontroller (processing + control logic)
-- Audio storage (flash or SD card)
-- Audio DAC / amplifier module
-- Left and right speakers
+- Power Distribuition Board (PDB)
+- Control Unit (MCU)
+- Sensors (Hall EFfec)
+- Audio Module (DAC)
+- Speakes
 
 **Block Flow:**
 
@@ -50,34 +49,24 @@ Power → All subsystems
 
 Selection will depend on cost, available peripherals, and audio support.
 
-## Sensor Options
+## Exploratory Sensor Options
 
 - Vibration sensor (detect fridge movement)
 - Reed switch (door open/close)
 - Small accelerometer module
 - PIR motion sensor (area detection)
 
-## Audio Options
+## Audio Module Options
 
 - I2S DAC + small class-D amp
 - All-in-one audio playback module
 - MCU PWM + filter + amp (low cost option)
 
-## Operation Logic (Planned)
-
-- Monitor sensor input
-- Count trigger events
-- When count reaches randomized threshold:
-  - Select random audio clip
-  - Play sound
-  - Reset counter with new random threshold
-
 ## Constraints
 
-- Target budget: $20
-- Small form factor
-- Simple wiring
-- Beginner-friendly firmware
+- Target budget: $40
+- Small and discreet
+- Hidden system that blends well
 
 ## Status
 
