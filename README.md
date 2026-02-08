@@ -1,6 +1,6 @@
 # Sensor Sound System (SSS)
 
-A discreet sensor-triggered ambience machine designed for a mini-fridge or bar setup. The system detects activity (such as door open, vibration, or motion) and plays randomized sound effects after a configurable number of trigger events. It can also function as a small standalone speaker system.
+A discreet sensor-triggered ambience machine designed for a mini-fridge or bar setup. The system detects activity (such as door) and plays randomized sound effects after a number of occurrences. System also doubles as a small standalone speaker system.
 
 ## Goal
 
